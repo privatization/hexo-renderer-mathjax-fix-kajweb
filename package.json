@@ -1,0 +1,39 @@
+{
+  "name": "hexo-renderer-mathjax",
+  "version": "0.6.0",
+  "description": "MathJax renderer plugin for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha; cat coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "ejs": "^2.3.4",
+    "hexo": "^3.1.1",
+    "hexo-fs": "^0.1.5",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/privatization/hexo-renderer-mathjax-fix-kajweb.git"
+  },
+  "keywords": [
+    "math",
+    "mathjax",
+    "renderer",
+    "hexo"
+  ],
+  "author": {
+    "name": "kajweb",
+    "email": "kajweb.me@gmail.com",
+    "url": "http://blog.iwwee.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phoenixcw/hexo-renderer-mathjax/issues"
+  },
+  "homepage": "https://github.com/phoenixcw/hexo-renderer-mathjax"
+}
